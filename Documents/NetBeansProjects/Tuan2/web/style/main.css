@@ -1,0 +1,55 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/ClientSide/css.css to edit this template
+*/
+/* 
+    Created on : Sep 4, 2024, 11:23:34 AM
+    Author     : Admin
+*/
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 11pt;
+    margin-left: 2em;
+    margin-right: 2em;
+}
+h1{
+    color:teal;
+}
+label{
+    float:left;
+    width: 10em;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    
+}
+input[type="text"], input[type="email"], input[type="date"]{
+    width: 15em;
+    margin-left: 1em;
+    margin-right: 1em;
+}
+.radio-group {
+    display: flex;
+    align-items: center; /* Center align items vertically */
+    gap: 15px; /* Space between radio buttons */
+}
+input[type="radio"] {
+    margin:0;
+   
+}
+input[type="radio"]:checked + label {
+    font-weight: bold;
+    color: #007BFF;
+}
+
+br{
+    clear:both;
+}
+#submit{
+    margin-top: 2em;
+    width: 5em;
+}
+.checkbox-group label {
+    
+    width: 30em;
+}
