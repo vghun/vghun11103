@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Your Cart</title>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="styles/styles.css" type="text/css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+    <h1>Yourt Cart</h1>
+    <table class="cart-table">
+        <thead>
+            <tr>
+                <th>Description</th>
+                <th>Price</th>
+                <th>     </th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>86 (the band) - True Life Songs and Pictures</td>
+                <td>$14.95</td>
+                <td>
+                    <form action="CartServlet" method="post">
+                        <input type="hidden" name="productName" value="86 (the band) - True Life Songs and Pictures">
+                        <input type="hidden" name="productPrice" value="14.95">
+                        <button type="submit">Add To Cart</button>
+                    </form>
+                </td>
+            </tr>
+            <tr>
+                <td>Paddlefoot - The first CD</td>
+                <td>$12.95</td>
+                <td>
+                    <form action="CartServlet" method="post">
+                        <input type="hidden" name="productName" value="Paddlefoot - CD Đầu Tiên">
+                        <input type="hidden" name="productPrice" value="12.95">
+                        <button type="submit">Add To Cart</button>
+                    </form>
+                </td>
+            </tr>
+            <tr>
+                <td>Paddlefoot - The Second CD </td>
+                <td>$14.95</td>
+                <td>
+                    <form action="CartServlet" method="post">
+                        <input type="hidden" name="productName" value="Paddlefoot - CD Thứ Hai">
+                        <input type="hidden" name="productPrice" value="14.95">
+                        <button type="submit">Add To Cart</button>
+                    </form>
+                </td>
+            </tr>
+            <tr>
+                <td>Joe Rut - Genuine Wood Grained Finish</td>
+                <td>$14.95</td>
+                <td>
+                    <form action="CartServlet" method="post">
+                        <input type="hidden" name="productName" value="Joe Rut - Genuine Wood Grained Finish">
+                        <input type="hidden" name="productPrice" value="14.95">
+                        <button type="submit">Add To Cart</button>
+                    </form>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+   
+</body>
+</html>
